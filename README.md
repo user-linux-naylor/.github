@@ -12,7 +12,7 @@ echo "deb [trusted=yes] https://raw.githubusercontent.com ./" > $PREFIX/etc/apt/
 ```sh
 apt update && apt upgrade
 
-apt install binutils
+apt install apt-ftparchive
 
 apt install user-linux-naylor-clib-deb-repo -y
 ```
