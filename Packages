@@ -1,0 +1,14 @@
+Package: user-linux-naylor-clib-deb-repo
+Architecture: all
+Version: 0.0.1
+Priority: optional
+Section: utils
+Maintainer: name <name@email.com>
+Filename: ./user-linux-naylor-clib-deb-repo_1.0_all.deb
+Size: 1344
+MD5sum: 1a9f236c34fe2dcd17d3f53fe8ba1eaa
+SHA1: 46b6b8b102a4f899ae56d12e3298ac50b9899f88
+SHA256: 6dc242ad99e0f9168b4dccb60528d2c9ff84b00da85cca4fbc541783683c8581
+SHA512: d6cf8826aa96e43952f264822fa6476a651e6a05c4ab3c52f74c915371c1224d06a880c16902de6d1eba34094868d91800f9a153cab8b8220ae36396e0bdd837
+Description: Package user-linux-naylor-clib
+

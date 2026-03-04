@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Cores para o terminal
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m' # Sem cor
+
+# Função para exibir ajuda
+show_help() {
+    echo "Uso: clib [comando]"
+    echo ""
+    echo "Comandos:"
+    echo "  init    Cria um arquivo clib.json básico"
+    echo "  install Instala dependências listadas"
+    echo "  version Mostra a versão do clib"
+}
+
+# Lógica principal baseada no argumento
+case "$1" in
+    init)
+        if [ -f "clib.json" ]; then
+            echo -e "${RED}Erro: clib.json já existe!${NC}"
+        else
+            echo '{"name": "meu-projeto", "version": "1.0.0", "dependencies": {}}' > clib.json
+            echo -e "${GREEN}clib.json criado com sucesso!${NC}"
+        fi
+        ;;
+    version)
+        echo "clib versão 1.0 (Pacote .deb)"
+        ;;
+    install)
+        echo "Lendo clib.json..."
+        # Exemplo: aqui você usaria 'jq' ou 'grep' para ler o JSON
+        echo -e "${GREEN}Instalação concluída (simulada).${NC}"
+        ;;
+    *)
+        show_help
+        ;;
+esac
+
