@@ -16,3 +16,5 @@ apt install apt-ftparchive
 
 apt install user-linux-naylor-clib-deb-repo -y
 ```
+
+<a href="docs/clib/structure.md">how to deb repo</a>
