@@ -5,7 +5,7 @@
 
 1. Add the source: 
 ```sh
-echo "deb [trusted=yes] https://raw.githubusercontent.com ./" > $PREFIX/etc/apt/sources.list.d/clib.list
+echo "deb [trusted=yes] https://raw.githubusercontent.com/user-linux-naylor/clib-deb-repo" > $PREFIX/etc/apt/sources.list.d/clib.list
 ```
 
 2. Install:
